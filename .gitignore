@@ -1,0 +1,70 @@
+# Python basics
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.venv/
+env/
+ENV/
+venv/
+pip-log.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Modelos, logs e dados temporários
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pb
+*.tflite
+*.log
+logs/
+checkpoints/
+saved_model/
+runs/
+
+# Streamlit
+.streamlit/*.toml
+.streamlit/*.json
+
+# Dados grandes, experimentais ou temporários
+*.csv
+*.tsv
+*.zip
+*.tar
+*.gz
+*.npz
+*.npy
+
+# Arquivos de histórico, cache e lixo
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Arquivos do treinamento que você não quer versionar
+treinamento_history.json
+
+# Imagens de exemplo (remova se quiser versionar as samples!)
+sample_images/
+
+# Exclua modelos treinados grandes se não quiser versionar
+cnn_model.h5
+
+# Windows Python launcher
+*.py[cod]
