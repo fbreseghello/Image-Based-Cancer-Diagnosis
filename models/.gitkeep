@@ -1,0 +1,5 @@
+# Models directory
+# This directory contains trained models and evaluation results
+
+# Placeholder file to ensure the directory is tracked by git
+# Actual model files (*.h5, *.keras) are ignored via .gitignore

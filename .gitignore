@@ -1,70 +1,135 @@
-# Python basics
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
 *.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# VSCode & IDEs
-.vscode/
-.idea/
-*.swp
-
-# Environment
+# Virtual Environment
+venv/
 .venv/
 env/
 ENV/
-venv/
+env.bak/
+venv.bak/
 pip-log.txt
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# OS
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Modelos, logs e dados temporários
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Machine Learning / Data Science
 *.h5
 *.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
 *.keras
 *.ckpt
-*.pb
 *.tflite
-*.log
+
+# Keep models directory but ignore model files
+models/*.h5
+models/*.hdf5
+models/*.keras
+models/evaluation/
+!models/.gitkeep
+
+# TensorBoard logs
 logs/
+tensorboard_logs/
+runs/
 checkpoints/
 saved_model/
-runs/
+
+# Training outputs
+*.log
+treinamento_history.json
+checkpoint/
+
+# Data files
+*.csv
+*.tsv
+*.data
+*.txt.gz
+*.json.gz
+*.npz
+*.npy
+*.zip
+*.tar
+*.gz
+
+# Sample images (uncomment if you want to exclude them)
+# sample_images/
+
+# Model file in root
+cnn_model.h5
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.old
+*.orig
+.cache/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# Environment variables
+.env
+.env.local
+
+# Azure ML (optional)
+.azureml/
+azureml-logs/
 
 # Streamlit
 .streamlit/*.toml
 .streamlit/*.json
-
-# Dados grandes, experimentais ou temporários
-*.csv
-*.tsv
-*.zip
-*.tar
-*.gz
-*.npz
-*.npy
-
-# Arquivos de histórico, cache e lixo
-*.bak
-*.tmp
-*.old
-*.orig
-
-# Arquivos do treinamento que você não quer versionar
-treinamento_history.json
-
-# Imagens de exemplo (remova se quiser versionar as samples!)
-sample_images/
-
-# Exclua modelos treinados grandes se não quiser versionar
-cnn_model.h5
-
-# Windows Python launcher
-*.py[cod]
+.streamlit/secrets.toml
+.streamlit/config.toml
