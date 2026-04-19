@@ -1,8 +1,8 @@
-# 🔬 Image-Based Cancer Diagnosis
+# Image-Based Cancer Diagnosis
 
 An AI-powered system for diagnosing cancer through histopathology image analysis using deep learning. This project utilizes Convolutional Neural Networks (CNNs) to classify tumor tissue samples as **benign** or **malignant**, with the goal of assisting healthcare professionals in early cancer detection.
 
-## ⚠️ Important Disclaimer
+## Important Disclaimer
 
 **This is an unvalidated project for AI study and educational purposes only.** 
 
@@ -10,7 +10,7 @@ Do not use the results presented here for actual medical diagnosis. Always consu
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Advanced CNN Architecture**: Custom deep learning model with:
   - Batch normalization for stable training
@@ -41,7 +41,7 @@ Do not use the results presented here for actual medical diagnosis. Always consu
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Image-Based-Cancer-Diagnosis/
@@ -67,7 +67,7 @@ Image-Based-Cancer-Diagnosis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -210,7 +210,7 @@ HORIZONTAL_FLIP = True
 
 ---
 
-## 📊 Model Architecture
+## Model Architecture
 
 ### Custom CNN (Default)
 
@@ -245,7 +245,7 @@ The model is evaluated using multiple metrics:
 
 ---
 
-## 🔬 Understanding Grad-CAM
+## Understanding Grad-CAM
 
 Grad-CAM (Gradient-weighted Class Activation Mapping) highlights which regions of the image the model focused on when making its prediction. This helps:
 
@@ -285,47 +285,12 @@ Contributions are welcome! Please:
 
 ---
 
-## 📚 Resources
+## Resources
 
 - [Histopathology](https://en.wikipedia.org/wiki/Histopathology)
 - [CNN for Medical Imaging](https://www.tensorflow.org/tutorials/images/classification)
 - [Transfer Learning](https://www.tensorflow.org/tutorials/images/transfer_learning)
 - [Grad-CAM Paper](https://arxiv.org/abs/1610.02391)
-
----
-
-## 📝 License
-
-This project is available for educational and research purposes. Please add an appropriate license if you plan to distribute or use commercially.
-
----
-
-## 👤 Author
-
-**Felipe Breseghello**
-- GitHub: [@fbreseghello](https://github.com/fbreseghello)
-
----
-
-## 🙏 Acknowledgments
-
-- Medical imaging community for datasets and research
-- TensorFlow and Keras teams
-- Streamlit for the amazing web framework
-- Open-source ML community
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Multi-class classification (additional cancer types)
-- [ ] Ensemble models for improved accuracy
-- [ ] Integration with DICOM medical imaging format
-- [ ] API endpoint for programmatic access
-- [ ] Docker containerization
-- [ ] Cloud deployment (AWS, Azure, GCP)
-- [ ] Mobile application
-- [ ] Clinical validation studies
 
 ---
 
